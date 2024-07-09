@@ -1,8 +1,7 @@
 pandoc: 3.1.11
-pkgdown: 2.0.9
+pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   environment-handling: environment-handling.html
   introduction-to-texor: introduction-to-texor.html
-last_built: 2024-07-03T12:19Z
-
+last_built: 2024-07-09T13:35Z
