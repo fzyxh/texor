@@ -68,6 +68,10 @@
 <dt id="arg-clean-up">clean_up<a class="anchor" aria-label="anchor" href="#arg-clean-up"></a></dt>
 <dd><p>whether to clean up the intermediate files, default is TRUE</p></dd>
 
+
+<dt id="arg-autonumber-eq">autonumber_eq<a class="anchor" aria-label="anchor" href="#arg-autonumber-eq"></a></dt>
+<dd><p>whether to autonumber the equations, default is FALSE</p></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
@@ -99,8 +103,8 @@
 <span class="r-msg co"><span class="r-pr">#&gt;</span>     * keep.source=TRUE,</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> changing \SweaveOpts{} to opts_chunk$set():</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span>     * \SweaveOpts{keep.source=TRUE, fig=TRUE}</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/example-knitr.Rnw --to markdown-simple_tables-pipe_tables-fenced_code_attributes --from latex --output /var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T//RtmpPLnDjh/sweave_article/example-knitr-part1.md --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article -f /Users/runner/work/_temp/Library/texor/sweave_code_reader.lua --lua-filter /Users/runner/work/_temp/Library/texor/r_code_chunk_patcher.lua </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/example-knitr.Rnw --to latex --from latex --output /var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T//RtmpPLnDjh/sweave_article/example-knitr-part2.tex --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article -f /Users/runner/work/_temp/Library/texor/sweave_code_remove.lua </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/example-knitr.Rnw --to markdown-simple_tables-pipe_tables-fenced_code_attributes --from latex --output /var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T//RtmpVwHBZm/sweave_article/example-knitr-part1.md --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article -f /Users/runner/work/_temp/Library/texor/sweave_code_reader.lua --lua-filter /Users/runner/work/_temp/Library/texor/r_code_chunk_patcher.lua </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/example-knitr.Rnw --to latex --from latex --output /var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T//RtmpVwHBZm/sweave_article/example-knitr-part2.tex --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article -f /Users/runner/work/_temp/Library/texor/sweave_code_remove.lua </span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Cannot aggregate bibliography as there is no embedded bibliography</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  example</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  example</span>
@@ -145,7 +149,7 @@
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Changed \begin{widefigure\*} to \begin{figure}</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  widefigure\*</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Changed \end{widefigure\*} to \end{figure}</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/RJwrapper.tex --to native --from latex --output /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/temp-native.txt -s --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/RJwrapper.tex --lua-filter /Users/runner/work/_temp/Library/texor/find_pdf_files.lua </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/RJwrapper.tex --to native --from latex --output /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/temp-native.txt -s --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/RJwrapper.tex --lua-filter /Users/runner/work/_temp/Library/texor/find_pdf_files.lua </span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  figure\*</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Changed \begin{figure\*} to \begin{figure}</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  figure\*</span>
@@ -162,40 +166,18 @@
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Changed \begin{algorithm} to \begin{figure}</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Found 0 Matches for target :  algorithm</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Changed \end{algorithm} to \end{figure}</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/RJwrapper.tex --to markdown-simple_tables-pipe_tables-fenced_code_attributes --from latex --output /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article/RJwrapper.md -s --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpPLnDjh/sweave_article --lua-filter /Users/runner/work/_temp/Library/texor/issue_checker.lua --lua-filter /Users/runner/work/_temp/Library/texor/abs_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/bib_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/equation_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/image_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/image_caption.lua --lua-filter /Users/runner/work/_temp/Library/texor/widetable_patcher.lua --lua-filter /Users/runner/work/_temp/Library/texor/R_code.lua --lua-filter /Users/runner/work/_temp/Library/texor/table_caption.lua --lua-filter /Users/runner/work/_temp/Library/texor/conversion_compat_check.lua --lua-filter /Users/runner/work/_temp/Library/texor/bookdown_ref.lua --lua-filter /Users/runner/work/_temp/Library/texor/auto_number_equations.lua --citeproc </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/RJwrapper.tex --to markdown-simple_tables-pipe_tables-fenced_code_attributes --from latex --output /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article/RJwrapper.md -s --resource-path /private/var/folders/hn/5bx1f4_d4ds5vhwhkxc7vdcr0000gn/T/RtmpVwHBZm/sweave_article --lua-filter /Users/runner/work/_temp/Library/texor/issue_checker.lua --lua-filter /Users/runner/work/_temp/Library/texor/abs_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/bib_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/equation_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/image_filter.lua --lua-filter /Users/runner/work/_temp/Library/texor/image_caption.lua --lua-filter /Users/runner/work/_temp/Library/texor/widetable_patcher.lua --lua-filter /Users/runner/work/_temp/Library/texor/R_code.lua --lua-filter /Users/runner/work/_temp/Library/texor/table_caption.lua --lua-filter /Users/runner/work/_temp/Library/texor/conversion_compat_check.lua --lua-filter /Users/runner/work/_temp/Library/texor/bookdown_ref.lua --lua-filter /Users/runner/work/_temp/Library/texor/auto_number_equations.lua --citeproc </span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> Detected the following packages from article:</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span>   CRAN: </span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span>   Bioconductor: </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] TRUE</span>
 <span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="co"># convert Rmd to HTML</span></span></span>
-<span class="r-in"><span><span class="fu">rmarkdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgs.rstudio.com/rmarkdown/reference/render.html" class="external-link">render</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">article_dir</span>, <span class="st">"example.Rmd"</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> processing file: example.Rmd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2/13 [unnamed-chunk-1]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4/13 [setup]          </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6/13 [unnamed-chunk-2]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8/13 [unnamed-chunk-3]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10/13 [test]           </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11/13                  </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12/13 [image]          </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13/13                  </span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> output file: example.knit.md</span>
-<span class="r-wrn co"><span class="r-pr">#&gt;</span> <span class="warning">Warning: </span>The vignette title specified in \VignetteIndexEntry{} is different from the title in the YAML metadata. The former is "entry name for CRAN", and the latter is "A Simple Example for rnw_to_rmd Function". If that is intentional, you may set options(rmarkdown.html_vignette.check_title = FALSE) to suppress this check.</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> /usr/local/bin/pandoc +RTS -K512m -RTS example.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output example.html --lua-filter /Users/runner/work/_temp/Library/bookdown/rmarkdown/lua/custom-environment.lua --lua-filter /Users/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Users/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --wrap preserve --section-divs --template /Users/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --highlight-style pygments --number-sections --css /Users/runner/work/_temp/Library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --citeproc </span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> Output created: example.html</span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/browseURL.html" class="external-link">browseURL</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html" class="external-link">file.path</a></span><span class="op">(</span><span class="va">article_dir</span>, <span class="st">"example.html"</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="co"># convert Rmd to HTML (comment this step to avoid failure on R CMD Check)</span></span></span>
+<span class="r-in"><span><span class="co"># rmarkdown::render(file.path(article_dir, "example.Rmd"))</span></span></span>
+<span class="r-in"><span><span class="co"># browseURL(file.path(article_dir, "example.html"))</span></span></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># remove temporary files</span></span></span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/unlink.html" class="external-link">unlink</a></span><span class="op">(</span><span class="va">your_article_folder</span>, recursive <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'your_article_folder' not found</span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/unlink.html" class="external-link">unlink</a></span><span class="op">(</span><span class="va">article_dir</span>, recursive <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
